@@ -11,7 +11,7 @@ export default function Home() {
   const [start, setStart] = useState<[number, number] | null>(null);
   const [end, setEnd] = useState<[number, number] | null>(null);
 
-  const boxSize = 25;
+  const boxSize = 23;
 
   const sleep = (ms: number) => new Promise((res) => setTimeout(res, ms));
 
